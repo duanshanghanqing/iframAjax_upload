@@ -42,6 +42,7 @@
                 console.log(data);
             }
         });
+        //res.abort();  //停止上传
     </script>
     
 ### node后台
