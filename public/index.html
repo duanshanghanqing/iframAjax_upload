@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1>ifram和ajax上传文件</h1>
-<form action="/upload" enctype="multipart/form-data" method="post"  id="fileForm"><!--target="frm"-->
+<form action="/upload" enctype="multipart/form-data" method="post"  id="fileForm">
     <input type="file" name="myfile" value="" multiple/><br/><br/>
     <input type="submit" value="点击本表单按钮上传"><br/><br/>
 </form>
@@ -45,6 +45,7 @@
             console.log(data);
         }
     });
+    //res.abort();  //停止上传
 </script>
 </body>
 </html>
